@@ -1,0 +1,19 @@
+[project]
+name = "first-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "KARTIK GHADAGE", email = "kartikghadage51@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=4.0.9",
+]
+
+[project.scripts]
+first-server = "first_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
